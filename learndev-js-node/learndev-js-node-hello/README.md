@@ -69,44 +69,44 @@ The file should now look like this:
 Now let’s head back to the first file you created called index.js. Its recommended to keep the this file very thin - only requiring the application itself (the index.js file from the /app subdirectory you created before). 
 Copy the following script into your index.js file and hit save to do this:
 
-'''js
+```js
 require('./app/index') 
-'''
+```
 
 Now open the index.js file in the /app folder and enter following:
 
-'''js
+```js
 // app/index.js
 const message = require('./message')
 
 const result = message.getMessage("My first node app")
 console.log(result) 
-'''
+```
 
 Note: The backticks around `The result is: ${result}` - if you use ‘ instead, ${result} will be printed when you run the package.
 
 Then paste the following business logic into calc.js in the /app folder:
 
-'''js
+```js
 // app/message.js
 function getMessage (arg) {  
   return 'Hello, your message is: ' + arg
 }
 
 module.exports.getMessage = getMessage 
-''' 
+``` 
 
 Now to test this worked, enter on the command line
-'''
+```
 npm start
-'''
+```
 or
-'''
+```
 node index.js
-'''
+```
 
 The following should be displayed: 
 
-'''
+```
 Hello, your message is: My first node app
-'''
+```
