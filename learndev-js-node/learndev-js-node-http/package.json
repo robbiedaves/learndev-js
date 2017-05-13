@@ -1,0 +1,12 @@
+{
+  "name": "learndev-js-node-http",
+  "version": "1.0.0",
+  "description": "This is from the following tutorial:\r https://blog.risingstack.com/node-hero-npm-tutorial/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Robin Davies",
+  "license": "ISC"
+}
