@@ -37,10 +37,12 @@ node index.js
 Again, hello world should be displayed.
 Package Structure
 Now, create the follow folder structure with empty files:
+```
 |--- app
 |       |--- calc.js
 |       |--- index.js
 |--- index.js
+```
 
 Every node.js project starts with a package.json file.It contains details of the project like author and dependencies.
 Type npn init to create the package.json. Hit enter to accept the defaults.
