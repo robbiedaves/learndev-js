@@ -169,12 +169,7 @@ Notes:
 * The error handler should be the last function added with app.use
 * The error handler has a next callback - it can be used to chain multiple error handlers.
 
-## Rendering HTML
-In the previous example we returned a json response for the random number.
-Now we will look at returning HTML.
-To do this, an easy way is to use the handlebars package with the express-handlebars wrapper.
 
-First
 
 
 
