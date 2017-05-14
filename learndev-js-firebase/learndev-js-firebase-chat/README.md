@@ -187,7 +187,7 @@ To synchronize messages on the app we'll need to add listeners that triggers whe
 Add code that listens to newly added messages to the app's UI. To do this modify the FriendlyChat.prototype.loadMessages function. This is where we'll register the listeners that listens to changes made to the data. We'll only display the last 12 messages of the chat to avoid displaying a very long history on load.
 
 ##### main.js
-```
+```js
 // Loads chat messages history and listens for upcoming ones.
 FriendlyChat.prototype.loadMessages = function() {
   // Reference to the /messages/ database path.
@@ -450,4 +450,4 @@ I tested this by going on my phone and adding messages and photos and the web pa
 * Firebase Realtime Database
 * Firebase SDK for Cloud Storage
 * Firebase Cloud Messaging
-* Firebase Static Hosting 
+* Firebase Static Hosting
